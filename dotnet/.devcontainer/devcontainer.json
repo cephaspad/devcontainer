@@ -3,7 +3,7 @@
 	"image": "mcr.microsoft.com/devcontainers/dotnet:6.0-focal",
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	"forwardPorts": [22],
 	"appPort": [22],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
